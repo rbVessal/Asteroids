@@ -1,0 +1,25 @@
+<game>
+	<hud>
+		<startLives>5</startLives>
+	</hud>
+	<levels>
+		<level>
+			<UFO spawnDelay = "15000" fireDelay = "2500" accuracy = "30" speed = "3"/>
+			<asteroids number="5" maxSpeed="3" maxRotation="5" />
+			<player>
+				<accThrust>0.3</accThrust>
+				<turn>0.5</turn>
+				<fireRate>5</fireRate>
+			</player>
+		</level>
+		<level>
+			<UFO spawnDelay = "15000" fireDelay = "2500" accuracy = "30" speed = "3"/>
+			<asteroids number="2" maxSpeed="4" maxRotation="6" />
+			<player>
+				<accThrust>0.4</accThrust>
+				<turn>0.7</turn>
+				<fireRate>4</fireRate>
+			</player>
+		</level>
+	</levels>
+</game>
